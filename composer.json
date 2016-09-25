@@ -1,0 +1,21 @@
+{
+    "name": "usamanoman/PHPEntitiesParser",
+    "description": "This is PHP Entities parser for natural language",
+    "license": "MIT",
+    "keywords": ["entities-parser","php-parser"],
+    "authors": [
+        {
+            "name": "Usama Noman",
+            "email": "usama@botsify.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "usamanoman\\PHPEntitiesParser\\": "src"
+        }
+    }
+}
