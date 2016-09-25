@@ -1,0 +1,11 @@
+{
+	"name": "wapmorgan/time-parser",
+	"description": "A parser for date & time written in natural language",
+	"keywords": ["time", "date", "humanized", "human-written", "parser"],
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"wapmorgan\\TimeParser\\": "src/"
+		}
+	}
+}
