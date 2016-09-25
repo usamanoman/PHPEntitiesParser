@@ -1,5 +1,5 @@
 {
-    "name": "usamanoman/PHPEntitiesParser",
+    "name": "usamanoman/php-entities-parser",
     "description": "This is PHP Entities parser for natural language",
     "license": "MIT",
     "keywords": ["entities-parser","php-parser"],
