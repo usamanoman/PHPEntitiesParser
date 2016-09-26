@@ -14,6 +14,7 @@ class PHPEntitiesParser {
   		$de = new DateExtraction();
   		$dates=[];
   		$date= $de->parse($str);
+
   		if($date!=null){
   		  $parts= date_parse($date[key($date)]);
     		if($parts['year']<=1970){
@@ -226,6 +227,7 @@ class PHPEntitiesParser {
 	 	    }
 
 	 	    $translations[trim($data)]=intval($sum + $stack->pop());
+
 	 	}
 	 	return $translations;
  	}

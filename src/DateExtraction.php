@@ -228,7 +228,7 @@ class DateExtraction
         $aCode .= $s;
       }
     }
-    
+
     if(isset($this->aMatches[$aCode])){
 
       $aMatch = $this->aMatches[$aCode];
@@ -248,6 +248,7 @@ class DateExtraction
         return [key($ts)=>date('Y-m-d H:i:s', $ts[key($ts)])];
       }
     }else if(count($aStates)>0){
+
       return [$aStates[0]['word']=>date('Y-m-d H:i:s', $ts)];
     }
   }
